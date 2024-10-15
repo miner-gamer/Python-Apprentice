@@ -19,6 +19,13 @@ tina.penup()
 tina.forward(20)
 tina.pendown()
 tina.right(30)
-tina
+tina.forward(80)
+tina.speed(0)
+for i in range(4):
+tina.circle(35)
+import turtle                           # Tell Python we want to work with the turtle
+turtle.setup (width=600, height=600)    # Set the size of the window
+
+tina = turtle.Turtle()                  # Create a turtle named tina
 
 turtle.exitonclick()
