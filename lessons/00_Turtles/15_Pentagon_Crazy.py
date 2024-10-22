@@ -4,6 +4,7 @@ Pentagon Crazy
 This program already works. Run it, then change it to make it draw a different pattern.
 """
 
+
 import random
 import turtle
 
@@ -21,10 +22,8 @@ colors = ("red", "blue", "green", "yellow", "orange")
 
 myTurtle = turtle.Turtle()
 myTurtle.shape("turtle")
-myTurtle.speed(0)
-myTurtle.width(1)
 
-sides = 5
+sides = 
 angle = 360 / sides
 
 for i in range(360):
