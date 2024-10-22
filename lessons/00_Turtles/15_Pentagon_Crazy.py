@@ -23,7 +23,7 @@ colors = ("red", "blue", "green", "yellow", "orange")
 myTurtle = turtle.Turtle()
 myTurtle.shape("turtle")
 
-sides = 
+sides = 9
 angle = 360 / sides
 
 for i in range(360):
