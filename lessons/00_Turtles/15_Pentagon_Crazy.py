@@ -22,8 +22,9 @@ colors = ("red", "blue", "green", "yellow", "orange")
 
 myTurtle = turtle.Turtle()
 myTurtle.shape("turtle")
+myTurtle.speed(0)
 
-sides = 9
+sides = 10
 angle = 360 / sides
 
 for i in range(360):
