@@ -47,9 +47,9 @@ tina.forward(11)
 tina.left(90)
 tina.forward(160)
 tina.right(80)
-tina.forward(100)
+tina.forward(115)
 tina.left(90)
-tina.forward(95)
+tina.forward(100)
 
 
 
@@ -74,6 +74,17 @@ bob.forward(150)
 bob.forward(11)
 bob.left(90)
 bob.forward(50)
+import turtle                           # Tell Python we want to work with the turtle
+turtle.setup (width=600, height=600)    # Set the size of the window
+
+tj = turtle.Turtle()
+tj.shape('turtle')                    # Set the shape of the turtle to a turtle
+tj.speed(1)                       # Create a turtle named tina
+tj.forward(20)
+tj.left(50)
+tj.forward(200)
+tj.forward(90)
+tj.teleport(3)
 
     
     
