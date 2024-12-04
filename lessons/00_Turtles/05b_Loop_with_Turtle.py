@@ -84,7 +84,7 @@ tj.forward(20)
 tj.left(50)
 tj.forward(200)
 tj.forward(90)
-tj.teleport(3)
+tj.teleport(1)
 
     
     
