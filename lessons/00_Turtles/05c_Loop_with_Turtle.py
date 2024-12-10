@@ -61,10 +61,10 @@ tina.forward(155)
 tina.teleport(1)
 tina.forward(155)
 tina.teleport(1)
-varstina.forward(155)
+tina.forward(155)
 tina.teleport(1)
 tina.forward(155)
-tina.left(300)
+tina.right(300)
 tina.forward(155)
 
 
