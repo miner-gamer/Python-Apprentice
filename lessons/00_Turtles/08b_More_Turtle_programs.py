@@ -16,7 +16,7 @@ tina = turtle.Turtle()                  # Create a turtle named tina
     
 screen = turtle.Screen()
 screen.setup(width=600, height=600)
-screen.bgcolor('blue')
+screen.bgcolor('green')
 
 t = turtle.Turtle()
 t.shape("turtle")
